@@ -93,8 +93,8 @@
     <header>
       <h1>Zikirlerim — Gizlilik Politikası / Privacy Policy</h1>
       <p class="meta">
-        <strong>TR</strong> Son güncelleme: 28.03.2026 ·
-        <strong>EN</strong> Last updated: 28 March 2026<br />
+        <strong>TR</strong> Son güncelleme: 31.03.2026 ·
+        <strong>EN</strong> Last updated: 31 March 2026<br />
         İletişim / Contact: <a href="mailto:zikirlerimapp@gmail.com">zikirlerimapp@gmail.com</a>
       </p>
       <nav class="skip" aria-label="Sayfa içi">
@@ -159,12 +159,13 @@
       <p>Geliştirici bu verilere erişemez, göremez veya kendi sistemlerinde işleyemez. Tüm kullanıcı içerikleri yalnızca kullanıcının cihazında saklanır.</p>
 
       <h2>5. İzinler ve Kullanım Amaçları</h2>
+      <p>Reklamların gösterilebilmesi için cihazınızda reklamla ilgili bir tanımlayıcı (reklam kimliği) kullanılabilir. Bu işlem Android ve Google reklam hizmetleri üzerinden yürütülen yaygın bir ayardır; uygulama bu bilgiyle sizin hakkınızda kendi başına profil oluşturmaz.</p>
       <p>Uygulama ve birleştirilen bileşenler (Google Play hizmetleri, reklam SDK’sı, AndroidX kütüphaneleri vb.) aşağıdaki izinleri manifestte bildirir:</p>
       <ul>
         <li><strong>Titreşim (VIBRATE)</strong> — Uygulama içi etkileşimlerde geri bildirim için kullanılır.</li>
         <li><strong>İnternet (INTERNET)</strong> — Reklamların yüklenmesi ve ilgili hizmetler için kullanılır.</li>
         <li><strong>Ağ durumu (ACCESS_NETWORK_STATE)</strong> — Bağlantının uygun olup olmadığını kontrol etmek için kullanılır (ör. reklam yüklemesi).</li>
-        <li><strong>Reklam kimliği (AD_ID, com.google.android.gms.permission.AD_ID)</strong> — Google Reklam / AdMob hizmetinin çalışması için gereklidir.</li>
+        <li><strong>Reklam kimliği (AD_ID, com.google.android.gms.permission.AD_ID)</strong> — Google Reklam / AdMob ile uyumludur. Android 13 ve sonrasında reklam kimliğinin kullanılabilmesi için uygulama manifestinde bildirilmiştir.</li>
         <li><strong>Reklam hizmetleri (ACCESS_ADSERVICES_AD_ID, ACCESS_ADSERVICES_ATTRIBUTION, ACCESS_ADSERVICES_TOPICS)</strong> — Android’de reklam ve ölçümleme ile uyumlu işlemler için Google Play hizmetleri tarafından kullanılabilir.</li>
         <li><strong>WAKE_LOCK</strong> — Genellikle reklam SDK’sı veya arka plan işleri (ör. birleştirilen kütüphaneler) tarafından kullanılabilir.</li>
         <li><strong>Ön plan hizmeti (FOREGROUND_SERVICE)</strong> — Bazı sistem ve kütüphane bileşenleri (ör. arka plan görevleri) tarafından gerekli olabilir; uygulamanın kendi kodunda kullanıcıya özel bir ön plan hizmeti sunulması bu izinle doğrudan bağlantılı olmayabilir.</li>
@@ -188,11 +189,10 @@
       <p><strong>Not:</strong> Reklam kimliği (AD_ID) yalnızca Google reklam altyapısı kapsamında kullanılır; uygulama kendi başına profil oluşturmaz (6. bölüm).</p>
 
       <h2>6. Reklamlar ve Üçüncü Taraf Servisler</h2>
-      <p>Uygulamada Google AdMob reklam hizmeti kullanılmaktadır.</p>
-      <p><strong>Reklam politikası:</strong></p>
+      <p>Uygulamamızda Google AdMob reklam hizmetleri kullanılmaktadır. Bu kapsamda, reklamların sunulabilmesi için reklam kimliği (Advertising ID) kullanılabilir. Reklam kimliği yalnızca reklamların gösterilmesi amacıyla kullanılır; kişiselleştirilmiş reklam sunulmaz ve kullanıcı profili oluşturulmaz.</p>
+      <p><strong>Ek bilgiler:</strong></p>
       <ul>
-        <li>Kişiselleştirilmiş reklam gösterilmez; uygulama isteklerinde kişiselleştirilmemiş reklam (NPA) kullanılır</li>
-        <li>Uygulama tarafından kullanıcı profili oluşturulmaz</li>
+        <li>Uygulama isteklerinde kişiselleştirilmemiş reklam (NPA) kullanılır</li>
         <li>Davranışsal takip yapılmaz</li>
         <li>Reklam kişiselleştirmesi için uygulama içinde ayrı izin veya tercih ekranı gösterilmez (yalnızca NPA); mümkün olduğunda ilgili ayarlar cihaz veya Google hesabı üzerinden yönetilebilir</li>
       </ul>
@@ -283,12 +283,13 @@
       <p>You control all content you enter (texts, notes, images). The developer cannot access, view, or process that content on its systems. It stays on your device.</p>
 
       <h2>5. Permissions</h2>
+      <p>To show ads, an advertising-related identifier on your device may be used. This follows common Android and Google ad practices; the app does not use it to build its own profile about you.</p>
       <p>The app and merged components (Google Play services, ad SDK, AndroidX libraries, etc.) declare the following permissions:</p>
       <ul>
         <li><strong>VIBRATE</strong> — In-app feedback (e.g. vibration).</li>
         <li><strong>INTERNET</strong> — Loading ads and related services.</li>
         <li><strong>ACCESS_NETWORK_STATE</strong> — Checking connectivity (e.g. for ads).</li>
-        <li><strong>AD_ID (com.google.android.gms.permission.AD_ID)</strong> — Required for Google Ads / AdMob.</li>
+        <li><strong>AD_ID (com.google.android.gms.permission.AD_ID)</strong> — For Google Ads / AdMob compatibility. Declared in the app manifest so the advertising ID can be used on Android 13 and later.</li>
         <li><strong>Ad services (ACCESS_ADSERVICES_AD_ID, ACCESS_ADSERVICES_ATTRIBUTION, ACCESS_ADSERVICES_TOPICS)</strong> — May be used by Google Play services for ad and measurement-related features on Android.</li>
         <li><strong>WAKE_LOCK</strong> — Often used by the ad SDK or background components from merged libraries.</li>
         <li><strong>FOREGROUND_SERVICE</strong> — May be required by system or library components (e.g. background tasks); it is not necessarily tied to a user-facing foreground service from the app’s own code.</li>
@@ -312,11 +313,10 @@
       <p><strong>Note:</strong> The advertising ID (AD_ID) is used only within Google’s ad stack; the app does not build its own profile (see section 6).</p>
 
       <h2>6. Ads and third parties</h2>
-      <p>The app uses Google AdMob.</p>
-      <p><strong>Ad approach:</strong></p>
+      <p>This app uses Google AdMob. To serve ads, the advertising identifier (Advertising ID) may be used. It is used only to show ads; personalized ads are not served and no user profile is built by the app.</p>
+      <p><strong>Further information:</strong></p>
       <ul>
         <li>Non-personalized ads (NPA) are requested in the app</li>
-        <li>No user profile is built by the app</li>
         <li>No behavioural tracking by the app</li>
         <li>No in-app consent or preference screen for ad personalization (NPA only); where available, ad or privacy settings can be managed via device or Google account settings outside the app</li>
       </ul>
